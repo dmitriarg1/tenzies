@@ -1,4 +1,5 @@
 module.exports = {
+  "mode": "production",
   "output": {
     "filename": "[name].pack.js"
   },
@@ -16,8 +17,8 @@ module.exports = {
           "loader": "babel-loader",
           "options": {
             "presets": [
-              "babel-preset-env",
-              "babel-preset-react"
+              "@babel/preset-env",
+              "@babel/preset-react"
             ]
           }
         },
